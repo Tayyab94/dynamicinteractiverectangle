@@ -27,7 +27,6 @@ rec.addEventListener("mousemove", function (detail) {
     }
 })
 
-
 rec.addEventListener("mouseleave", function () {
     gsap.to(rec, {
         backgroundColor: "white"
